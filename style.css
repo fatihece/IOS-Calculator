@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    background-color: black;
+    width: 23%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header{
+    height: 150px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.result{
+    margin-top: 7rem;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 3.2rem;
+    height: auto;
+    width: 100%;
+    font-weight:lighter;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.calculator{
+ 
+}
+
+.buttons{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: filter 0.3s;
+
+}
+
+button:hover{
+    filter: brightness(120%);
+}
+
+
+
+.ACbutton,
+.operatorNegative,
+.modbutton{
+    background-color:#a5a5a5;
+    color: white;
+}
+
+.operatorDiv,
+.operatorX,
+.operatorMinus,
+.operatorAdd,
+.operatorEqual{
+    background-color: #f1a33c;
+    color: white;
+}
+
+.number7,.number8, .number9,
+.number4, .number5, .number6,
+.number1, .number2, .number3,
+.number0, .comma{
+    background-color: #333;
+    color: white;
+}
+
+.number0{
+   width: 110px;
+   border-radius: 55px;
+}
