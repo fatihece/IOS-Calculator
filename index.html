@@ -10,41 +10,45 @@
 <body>
     <div class="container">
         <div class="header">
-            <input class="result" type="text" value="0" maxlength="9">
+            <!-- <input class="result" type="text" value="0" maxlength="9"> -->
+            <div class="result">
+                
+            </div>
         </div>
         <div class="section">
             <div class="calculator">
-                <button class="buttons ACbutton">AC</button>
-                <button class="buttons operatorNegative">+/-</button>
-                <button class="buttons modbutton">%</button>
-                <button class="buttons operatorDiv">/</button>
+                <button class="buttons function ac" value="" id="clean">AC</button>
+                <button class="buttons function pm" value="±">±</button>
+                <button class="buttons operator mod" value="%">%</button>
+                <button class="buttons operator division" value="÷">÷</button>
             </div>
             <div class="calculator">
-                <button class="buttons number7">7</button>
-                <button class="buttons number8">8</button>
-                <button class="buttons number9">9</button>
-                <button class="buttons operatorX">x</button>
+                <button class="buttons number number7" value="7">7</button>
+                <button class="buttons number number8" value="8">8</button>
+                <button class="buttons number number9" value="9">9</button>
+                <button class="buttons operator multiply" value="*">x</button>
             </div>
             <div class="calculator">
-                <button class="buttons number4">4</button>
-                <button class="buttons number5">5</button>
-                <button class="buttons number6">6</button>
-                <button class="buttons operatorMinus">-</button>
+                <button class="buttons number number4" value="4">4</button>
+                <button class="buttons number number5" value="5">5</button>
+                <button class="buttons number number6" value="6">6</button>
+                <button class="buttons operator substract" value="-">-</button>
             </div>
             <div class="calculator">
-                <button class="buttons number1">1</button>
-                <button class="buttons number2">2</button>
-                <button class="buttons number3">3</button>
-                <button class="buttons operatorAdd">+</button>
-            </div>
+                <button class="buttons number number1" value="1">1</button>
+                <button class="buttons number number2" value="2">2</button>
+                <button class="buttons number number3" value="3">3</button>
+                <button class="buttons operator addition" value="+">+</button>
+            </div> value
             <div class="calculator">
-                <button class="buttons number0">0</button>
-                <button class="buttons comma">,</button>
-                <button class="buttons operatorEqual">=</button>
+                <button class="buttons number number0" value="0">0</button>
+                <button class="buttons comma" value=".">.</button>
+                <button class="buttons function equal" value="=" id="calculate">=</button>
             </div>
         </div>
 
     </div>
     <script src="app.js"></script>
+
 </body>
 </html>

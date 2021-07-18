@@ -6,21 +6,37 @@
 
 body{
     font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #304352, #d7d2cc);
 }
 
 .container{
     background-color: black;
-    width: 23%;
+    width: 285px;
     height: auto;
     margin: auto;
-    padding: 10px;
+    padding: 5çpx;
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .header{
-    height: 150px;
+    height: 60px;
     margin-bottom: 40px;
     margin-right: 20px;
 }
@@ -37,16 +53,15 @@ body{
     width: 100%;
     font-weight:lighter;
 }
+
 .section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
 
-}
- 
-}
 
 .buttons{
     height: 50px;
@@ -58,40 +73,31 @@ body{
     cursor: pointer;
     margin: 5px;
     transition: filter 0.3s;
-
 }
 
 button:hover{
     filter: brightness(120%);
 }
 
+.buttons{
+    background-color: #333;
+    color: white;
+}
 
-
-.ACbutton,
-.operatorNegative,
-.modbutton{
+.function{
     background-color:#a5a5a5;
     color: white;
 }
 
-.operatorDiv,
-.operatorX,
-.operatorMinus,
-.operatorAdd,
-.operatorEqual{
+.operator{
     background-color: #f1a33c;
     color: white;
 }
 
-.number7,.number8, .number9,
-.number4, .number5, .number6,
-.number1, .number2, .number3,
-.number0, .comma{
-    background-color: #333;
-    color: white;
-}
 
 .number0{
    width: 110px;
    border-radius: 55px;
 }
+
+
